@@ -261,6 +261,7 @@ label[for="bt_menu"] {
     video {
         width: 60%;
         height: auto;
+        align-items: center;
     }
     .imagem {
         width: 30%;
