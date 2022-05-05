@@ -259,9 +259,11 @@ label[for="bt_menu"] {
         height: 300px;
     }
     video {
-        width: 60%;
-        height: auto;
-        align-items: center;
+        width: 500%;   
+    }
+    video {
+        margin: 0 auto;
+        width: 500px;
     }
     .imagem {
         width: 30%;
