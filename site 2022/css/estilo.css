@@ -282,6 +282,10 @@ label[for="bt_menu"] {
     #pgacess{
         padding-left: 35%;
     }
+    #bt_menu:checked ~ #menu {
+        display:block;
+    }
+    
 @media screen and (max-width:1440px){
     #pgacess{
         padding-left: 30%;
