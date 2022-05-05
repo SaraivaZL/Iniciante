@@ -30,6 +30,16 @@
         <img id="assistencia" src="imagem/assistencia-e-desenvolvimento-social_centralizado.png">
     
         <nav><!--navegação-->
+            <div vw class="enabled">
+                <div vw-access-button class="active"></div>
+                <div vw-plugin-wrapper>
+                  <div class="vw-plugin-top-wrapper"></div>
+                </div>
+                  </div>
+                  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+                  <script>
+                new window.VLibras.Widget('https://vlibras.gov.br/app');
+                  </script>
             <label for="bt_menu"><img src="imagem/menu.png"> <alt="menu">
             </label>
             <input type="checkbox" id="bt_menu"><!--Menu responsivo-->
@@ -50,16 +60,7 @@
             </ul>
         
         </nav>
-        <div vw class="enabled">
-			<div vw-access-button class="active"></div>
-			<div vw-plugin-wrapper>
-			  <div class="vw-plugin-top-wrapper"></div>
-			</div>
-		      </div>
-		      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-		      <script>
-			new window.VLibras.Widget('https://vlibras.gov.br/app');
-		      </script>
+        
     </header>
     <main id="conteudo">
         <ul id="breadcrumb">
@@ -91,7 +92,8 @@
                 </ul>
             </li>
             <li><a href="Layout.html">Layout</a></li>
-            <li><a href="contatos.html">Fale Conosco</a></li>                            
+            <li><a href="contatos.html">Fale Conosco</a></li>
+            <li><a href="acessibilidade.html"> Acessibilidade</a></li>                            
         </ul>
     </footer>
 
