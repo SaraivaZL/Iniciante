@@ -148,13 +148,17 @@ textarea{
     background-color: #dcdcdc;
     color: #000;
     font-family: Arial, Helvetica, sans-serif;
-}
-video{
-    width: 30%;
-    height: auto;
-    margin-left: 4%;
+;
     
+}video {
+    width: 500px;
 }
+
+video {
+    margin: 0 auto;
+    width: 500px;
+}
+
 iframe{
     width: 640px;
     height: 430px;
