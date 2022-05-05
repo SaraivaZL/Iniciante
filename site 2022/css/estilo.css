@@ -259,11 +259,8 @@ label[for="bt_menu"] {
         height: 300px;
     }
     video {
-        width: 800%;   
-    }
-    video {
-        margin: 0 auto;
-        width: 800px;
+        width: 60%;
+        height: auto;
     }
     .imagem {
         width: 30%;
