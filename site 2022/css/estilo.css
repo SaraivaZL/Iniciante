@@ -21,6 +21,11 @@ body{
     height: auto;
     padding-left: 55%;
 }
+.P {
+    width: 60%;
+    height: auto;
+    
+}
 nav{
     width: 100%;
     height: auto;
@@ -152,7 +157,7 @@ textarea{
 video{
     width: 30%;
     height: auto;
-    margin-left: 4%;
+    margin-left: 23%;
     
 }
 iframe{
@@ -168,7 +173,7 @@ label[for="bt_menu"] {
 }
 #breadcrumb{
     padding-left: 4%;
-    list-style: none;
+    list-style: none;  
 }
 #breadcrumb li {
     display: inline;
